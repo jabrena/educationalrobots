@@ -8,7 +8,7 @@ public class SSLTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		SSL SSLObj = new SSL(SensorPort.S1);
-		//SSLObj.setFilterON();
+		SSLObj.setFilterON();
 		
 		while(!Button.ESCAPE.isPressed()){
 			SSLObj.get3DVectors();

@@ -7,7 +7,7 @@ import lejos.nxt.*;
  *
  */
 public class SSL extends I2CSensor{
-	private static final byte SSL_ADDRESS = (byte)0x30;
+	private static final byte SSL_ADDRESS = (byte)0x30 >> 1;
     private byte[] outBuf3DV = new byte[22];
     private int pitch = 0;
     private int roll = 0;
