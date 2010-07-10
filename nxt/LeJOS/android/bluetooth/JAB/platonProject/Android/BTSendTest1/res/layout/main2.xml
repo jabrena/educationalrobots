@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget29"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#ffffffff"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<ImageView
+android:id="@+id/logo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/lejoslogo"
+android:layout_x="0px"
+android:layout_y="0px"
+>
+</ImageView>
+<Button
+android:id="@+id/connect"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Connect"
+android:layout_x="5px"
+android:layout_y="155px"
+>
+</Button>
+<Button
+android:id="@+id/disconnect"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Disconnect"
+android:layout_x="5px"
+android:layout_y="230px"
+>
+</Button>
+<Button
+android:id="@+id/autonomous"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Auto"
+android:layout_x="100px"
+android:layout_y="155px"
+>
+</Button>
+<!-- 
+<CheckBox
+android:id="@+id/cbreconnect"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Reconnect"
+android:layout_x="5px"
+android:layout_y="220px"
+>
+</CheckBox>
+ -->
+<TextView
+android:id="@+id/btstatus"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Status"
+android:layout_x="5px"
+android:layout_y="300px"
+	        android:textColor="#000000"
+	        android:textSize="10dip"
+	        android:textStyle="bold"
+>
+</TextView>
+<TextView
+android:id="@+id/input"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Input:"
+android:layout_x="5px"
+android:layout_y="320px"
+	        android:textColor="#000000"
+	        android:textSize="10dip"
+	        android:textStyle="bold"
+>
+</TextView>
+<TextView
+android:id="@+id/output"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Output:"
+android:layout_x="5px"
+android:layout_y="340px"
+	        android:textColor="#000000"
+	        android:textSize="10dip"
+	        android:textStyle="bold"
+>
+</TextView>
+<TextView
+android:id="@+id/leftus"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="LeftUS:"
+android:layout_x="5px"
+android:layout_y="360px"
+	        android:textColor="#000000"
+	        android:textSize="10dip"
+	        android:textStyle="bold"
+>
+</TextView>
+<TextView
+android:id="@+id/rightus"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="RightUS:"
+android:layout_x="5px"
+android:layout_y="380px"
+	        android:textColor="#000000"
+	        android:textSize="10dip"
+	        android:textStyle="bold"
+>
+</TextView>
+<Button
+android:id="@+id/one"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  1  "
+android:layout_x="250px"
+android:layout_y="130px"
+>
+</Button>
+<Button
+android:id="@+id/two"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  2  "
+android:layout_x="350px"
+android:layout_y="130px"
+>
+</Button>
+
+<Button
+android:id="@+id/three"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  3  "
+android:layout_x="450px"
+android:layout_y="130px"
+>
+</Button>
+<Button
+android:id="@+id/four"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  4  "
+android:layout_x="250px"
+android:layout_y="230px"
+>
+</Button>
+
+<Button
+android:id="@+id/five"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  5  "
+android:layout_x="350px"
+android:layout_y="230px"
+>
+</Button>
+<Button
+android:id="@+id/six"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  6  "
+android:layout_x="450px"
+android:layout_y="230px"
+>
+</Button>
+
+<Button
+android:id="@+id/seven"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  7  "
+android:layout_x="250px"
+android:layout_y="330px"
+>
+</Button>
+
+<Button
+android:id="@+id/eight"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  8  "
+android:layout_x="350px"
+android:layout_y="330px"
+>
+</Button>
+
+<!-- 
+ -->
+<Button
+android:id="@+id/nine"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="  9  "
+android:layout_x="450px"
+android:layout_y="330px"
+>
+</Button>
+
+</AbsoluteLayout>
